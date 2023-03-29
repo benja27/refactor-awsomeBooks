@@ -34,9 +34,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Mariano's Porfolio] <a name="about-project"></a>
+# 📖 [Refactor awsomebooks project to ES6] <a name="about-project"></a>
 
-**[Mariano's Porfolio]** is a practice of responsive Design and JS DOM manipulation as capstone of the first module
+**[Refactor awsomebooks project to ES6]** is a practice of responsive Design and JS DOM manipulation as capstone of the first module
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -51,10 +51,10 @@
     <li><a href="https://reactjs.org/">JS</a></li>
   </ul>
   <ul>
-    <li><a href="https://reactjs.org/">Flex-box</a></li>
+    <li><a href="https://reactjs.org/">classes</a></li>
   </ul>
   <ul>
-    <li><a href="https://reactjs.org/">Grid</a></li>
+    <li><a href="https://reactjs.org/">ES6</a></li>
   </ul>
 </details>
 
@@ -62,7 +62,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Responsive Design]**
+- **[only use js classes in diferent modules]**
 - **[DOM manipularion using JS]**
 - **[Live demo]**
 
@@ -118,7 +118,7 @@ Example commands:
 
 Install this project with:
 
-it does not requiere instalattion.
+it does not requiere instalation.
 
 <!--
 Example command:
@@ -218,10 +218,7 @@ If you like this project like and subscribe
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank to Microverse and Cindy Shin the author of the original design.
-you can visit her webiste here:
-
-https://www.behance.net/adagio07
+I would like to thank to Microverse for this coding experience
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
