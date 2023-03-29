@@ -1,5 +1,5 @@
 // import { DateTime } from '../node_modules/luxon/build/es6/luxon.js';
-import {DateTime} from 'https://cdn.jsdelivr.net/npm/luxon@3.3.0/+esm';
+import { DateTime } from 'https://cdn.jsdelivr.net/npm/luxon@3.3.0/+esm';
 
 export default class Datenow {
   constructor() {
