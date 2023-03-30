@@ -1,16 +1,21 @@
+import { DateTime } from '../modules/luxon.js';
 import PushBook from '../modules/saveBook.js';
 import ShowBooksClass from '../modules/showBooks.js';
 import RemoveBook from '../modules/remove.js';
-import Datenow from '../modules/timeNow.js';
 
 const remove = new RemoveBook();
 let local = localStorage.getItem('collection') || [];
 const ShowBooks = new ShowBooksClass();
-const timeof = new Datenow();
+
+const now = DateTime.now().toLocaleString(DateTime.DATETIME_MED);
+document.querySelector('.date h4').textContent = now;
+setInterval(() => {
+  const now = DateTime.now().toLocaleString(DateTime.DATETIME_MED);
+  document.querySelector('.date h4').textContent = now;
+}, 6000);
 
 document.addEventListener('DOMContentLoaded', () => {
   ShowBooks.show(local);
-  timeof.update();
 });
 
 document.getElementById('form').addEventListener('submit', (e) => {

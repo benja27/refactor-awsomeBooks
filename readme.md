@@ -73,8 +73,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://benja27.github.io/CapstoneModule1/)
-- [Loom walkthrought Video](https://www.loom.com/share/efa132271014453bbb17fb462cc95999)
+- [Live Demo Link](https://benja27.github.io/refactor-awsomeBooks/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

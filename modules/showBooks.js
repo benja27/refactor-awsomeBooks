@@ -24,7 +24,6 @@ export default class ShowBooksClass {
         button.setAttribute('data-id', `${index}`);
         div.append(textContent, button);
         container.appendChild(div);
-        // location.reload()
       });
     }
   }
